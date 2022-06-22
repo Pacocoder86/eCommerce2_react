@@ -18,28 +18,26 @@ export const EcomScreen = () => {
     }, [])
 
 
-
     return (
 
         <div className='App App-header'>
             {
                 producto.map((producto) => (
                     <div className="parent">
-                        <ul >
-                            <li key={producto._id}>
-                                {`Nombre: ${producto.product_name} `}
-                            </li>
-                            <li>
-                                {`Precio: $ ${producto.price} `}
-                            </li>
-                            <li className="imagen">
-                                <img src={producto.image} alt={producto.product_name} />
-                            </li>
-                        </ul>
+                        <div className="card">
+                            <div className="container">
+                                <img className="imagen" src={producto.image} alt={producto.product_name} />
+                                <div>
+                                    <p key={producto._id}>
+                                        <p> {`Nombre: ${producto.product_name} `}</p>
+                                        <p>{`Precio: $ ${producto.price} `}</p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 ))
             }
         </div>
     )
 }
-
