@@ -1,45 +1,58 @@
-.App {
-  text-align: center;
+body{
+  background-color:rgb(54, 53, 53);
+  margin: 0;
 }
-.App-header {
-  background-color: #282c34;
+
+
+.app {
+  text-align: center;
+
+}
+.app-header {
+  background-color: rgb(221, 215, 215);
   align-items: center;
   justify-content: center;
   font-size: medium;
 }
 
+.maincontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .parent {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
+ display: flex;
+ flex-wrap: wrap;
   }
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 6px 16px 0 rgba(255, 38, 38, 0.959);
+  box-shadow: 0 6px 16px 0 rgba(158, 158, 158, 0.959);
+  border-radius: 5%;
   transition: 0.3s;
   width: 25rem;
+  margin: 1rem;
+  max-height: 480px;
+  
+  
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 8px 12px 16px 8px rgba(125, 243, 47, 0.918);
-}
-.container{
-  
-  background-color: blueviolet;
-  height: 20rem;
-  padding: 3.5rem;
+  box-shadow: 0px 10px 10px 0px rgba(125, 243, 47, 0.918);
 }
 
+
 .imagen{
-  height: auto;
-  width: 100%;
+  border-radius: 5%;
+  margin: 10px;
+  height: 378px;
+  width: 95%;
 }
 
 p{ 
   color: black;
   list-style: none;
+  font-weight: bold;
 }
