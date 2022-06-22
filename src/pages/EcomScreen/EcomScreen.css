@@ -10,8 +10,8 @@
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   }
@@ -28,14 +28,15 @@
   box-shadow: 8px 12px 16px 8px rgba(125, 243, 47, 0.918);
 }
 .container{
+  
   background-color: blueviolet;
   height: 20rem;
   padding: 3.5rem;
 }
 
 .imagen{
-  height: 8rem;
-  width: 8rem;
+  height: auto;
+  width: 100%;
 }
 
 p{ 
