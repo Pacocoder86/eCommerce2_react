@@ -1,17 +1,30 @@
-.navbar-brand{
-    align-items: center;
-    background-color: #d32f2f;
+.nav{
+    background-color: #880e4f  ;
     display: flex;
     justify-content: space-between;
     padding: 0 200rem;
     height: 2rem;
-
+}
+.navbar-brand{
+    align-items: flex-start;
+    background-color: #ff80ab;
+    display: flex;
+    justify-content: center;
+    padding: 0 100rem;
+    height: 8rem;
+    margin-right: 0px;
+    width: 100%;
+    padding-top: 45px;
     
 }
-.ai, .ah, .aho{
+.ai {
     color: rgb(0, 0, 0);
     font-size: x-large;
     text-decoration: none;
     padding: 10px;
     
+}
+
+a:hover {
+    color: #fff;
 }

@@ -1,0 +1,21 @@
+.navbar-brand-footer{
+    align-items: center;
+    background-color: #757575 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100rem;
+    height: 8rem;
+    
+    
+}
+.aio, .aho, .ahor{
+    color: rgb(252, 252, 252);
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+a:hover {
+    color: #000000;
+}

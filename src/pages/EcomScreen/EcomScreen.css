@@ -15,6 +15,7 @@ body{
   flex-wrap: wrap;
   font-size: medium;
   justify-content: center;
+  overflow: hidden;
 }
 
 .parent {
