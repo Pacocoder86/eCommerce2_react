@@ -1,0 +1,17 @@
+.navbar-brand{
+    align-items: center;
+    background-color: #d32f2f;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200rem;
+    height: 2rem;
+
+    
+}
+.ai, .ah, .aho{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    text-decoration: none;
+    padding: 10px;
+    
+}
